@@ -1,0 +1,59 @@
+body{
+    max-width: 1000vh;
+    padding: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: blue; 
+    text-shadow: rgb(4, 248, 77) 1px 1px 10px;
+}
+legend {
+    background-color:rgb(250, 232, 75); 
+    border: 1px solid black;
+}
+fieldset{
+    background-color: rgb(193, 252, 252);
+}
+#botonvaloracion{
+    width: 125px;
+    height: 40px;
+    background-color: rgb(233, 247, 159);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#botoncuenta{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(233, 247, 159);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#botondia{
+    width: 175px;
+    height: 40px;
+    background-color: rgb(233, 247, 159);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#verde{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    place-items: center;
+    font-size: large;
+    color: green;
+}
+#rojo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    place-items: center;
+    font-size: large;
+    color: red;
+}
+
