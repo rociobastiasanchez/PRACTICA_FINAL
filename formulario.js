@@ -113,11 +113,11 @@ function postal () {
             verde.style.margin = '8px';
             verde.style.padding = '8px';
     } else {
-        swal("El código postal no corresponde con la localidad. Revise sus datos teniendo en cuenta que las localidades van sin acentos y sin eñes (Ejemplo: La Corunya).", {
+        swal("El código postal no corresponde con la localidad. Revise sus datos teniendo en cuenta que las localidades deben escribirse la primera letra en mayúsculas, sin acentos y sin eñes (Ejemplo: La Corunya).", {
             icon: 'error',
         });
         var rojo = document.getElementById("rojo");
-        rojo.textContent = "El código postal o la localidad son incorrectos. Revise sus datos teniendo en cuenta que las localidades van sin acentos y sin eñes (Ejemplo: La Corunya).";
+        rojo.textContent = "El código postal o la localidad son incorrectos. Revise sus datos teniendo en cuenta que las localidades deben escribirse la primera letra en mayúsculas, sin acentos y sin eñes (Ejemplo: La Corunya).";
         rojo.style.border = '4px dotted red';
         rojo.style.margin = '8px';
         rojo.style.padding = '8px';
